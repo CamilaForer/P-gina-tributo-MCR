@@ -1,62 +1,131 @@
 /* estilos header */
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 @font-face {
   font-family: MYCHEMICALROMANCE;
   src: url(/Fuente/my_chemical_romance.ttf);
-  font-family:'Inter', sans-serif; 
+  font-family: "Inter", sans-serif;
 }
-body{
-  background:linear-gradient(to bottom, #020202, #2B2B2B, #575656)no-repeat;
+body {
+  background: linear-gradient(to bottom, #020202, #2b2b2b, #575656) no-repeat;
 }
-h1{
-  font-family: MYCHEMICALROMANCE ;
+h1 {
+  font-family: MYCHEMICALROMANCE;
   size: 120%;
 }
-header{
-  color: #FFFFFF;
-  text-align:  center;
-  font-family:'Inter', sans-serif ;
-  }
+header {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 2%;
+}
 ul {
-    list-style: none;
+  list-style: none;
 }
-.albumes{
-  border-right:1px solid #FFFFFF;
-  border-left:1px solid #FFFFFF;  
+.albumesHeader {
+  border-right: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
 }
-nav li{
-  display:inline-block;
+nav li {
+  display: inline-block;
   padding-left: 2%;
   padding-right: 2%;
-  }
-a:active{
-  color: #FFFFFF;
+}
+a:active {
+  color: #ffffff;
   font-weight: bold;
 }
-a:visited{
-  color:#FFFFFF;
-
+a:visited {
+  color: #ffffff;
 }
-a:hover{
+a:hover {
   font-weight: bold;
 }
-p{
-  font-family: 'Inter', sans-serif ;
-  color: #FFFFFF;
+p {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
 }
 /*Estilos carrusel-About the band*/
-.about-the-band{
+carrusel {
+  justify-content: center;
+  height: 457px;
+  overflow: hidden;
+}
+.imagen img{
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  object-fit: contain;
+  left: 2%;
+}
+.flechasCarrusel {
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  top:30%;
+  height: 100%;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  object-fit: contain;
+  padding: 2%;
+}
+.flechasCarrusel img{
+  width: 70px;
+}
+
+.about-the-band {
   text-align: center;
   text-align: justify;
   padding-left: 10%;
   padding-right: 10%;
 }
-h3{
+h3 {
   font-weight: bold;
-  font-family: 'Inter', sans-serif ;
-  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
   text-align: center;
 }
 /*Estilos álbumes*/
+.albumes{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+ .caratulas{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+ }
+
+  .card{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 40%;
+  min-height: 200px;
+  max-height: 400px;
+  background: rgba(217, 217, 217, 0.2);
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 6%;
+ }
+ .caratulas img{
+  display: flex;
+  width: 90%;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.info_albumes{
+  width: 50%;
+  display: flex;
+
+ 
+}
 
 /*Estilos biografias*/
