@@ -11,13 +11,16 @@ body {
 }
 h1 {
   font-family: MYCHEMICALROMANCE;
-  size: 120%;
+  font-size: 3rem;
+  padding-bottom: 1%;
+
 }
 header {
   color: #ffffff;
   text-align: center;
   font-family: "Inter", sans-serif;
   padding-bottom: 2%;
+  padding-top: 4%;
 }
 ul {
   list-style: none;
@@ -46,18 +49,34 @@ p {
   color: #ffffff;
 }
 /*Estilos carrusel-About the band*/
-carrusel {
-  justify-content: center;
-  height: 457px;
-  overflow: hidden;
+
+.carousel-inner {
+  display: flex;
+  position: relative;
+  width: 100%;
+  overflow: hidden; 
 }
-.imagen img{
+.carousel-item active{
+  object-fit: contain;
   max-width: 100%;
   max-height: 100%;
-  position: relative;
-  object-fit: contain;
-  left: 2%;
 }
+.carousel-item{
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+.carousel-control-prev,
+.carousel-control-next{
+  width: 9%;
+  opacity: .7;
+}
+.anterior, 
+.siguiente{
+ width: 100%;
+}
+
+
 .flechasCarrusel {
   cursor: pointer;
   border: none;
@@ -71,15 +90,16 @@ carrusel {
   object-fit: contain;
   padding: 2%;
 }
-.flechasCarrusel img{
-  width: 70px;
-}
+
 
 .about-the-band {
   text-align: center;
   text-align: justify;
   padding-left: 10%;
   padding-right: 10%;
+}
+.about{
+  margin-top: 2%;
 }
 h3 {
   font-weight: bold;
@@ -89,13 +109,14 @@ h3 {
 }
 /*Estilos álbumes*/
 .albumes{
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  position: relative;
+  overflow-y: auto;
+  justify-content: center;
 }
  .caratulas{
-  width: 100%;
+  width: 50%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -117,15 +138,45 @@ h3 {
  .caratulas img{
   display: flex;
   width: 90%;
-  margin-top: 20px;
+  margin: 10%;
   border-radius: 5px;
+  height: 80%;
 }
 
 .info_albumes{
-  width: 50%;
+  width: 45%;
+  max-height: 765px;
   display: flex;
-
- 
+  justify-content:left;
+  border-radius: 5px;
+  background-color: rgba(217, 217, 217, 0.2);
+  padding-top: 2%;
+}
+.titulo_canción{
+  width: 100%;
+  margin-left: 5%;
+  font-weight: bold;
+  font-size: 1.3rem;
+  object-fit: contain;
+}
+th{
+  color: #ffffff;
+  margin-bottom: 2%;
+}
+td{
+  color: #ffffff;
 }
 
 /*Estilos biografias*/
+.info_bio{
+  display: flex;
+  justify-content: center;
+}
+.img_biografias{
+  width: 40%;
+  justify-content: center;
+}
+.img_biografias img{
+  width: 100%;
+  border-radius: 5px;
+}
