@@ -1,4 +1,5 @@
-# H1 Página-tributo-MCR
+# Página-tributo-MCR
+=
 
 Creación de página tributo a la banda My Chemical Romance, con:
 -HTML 
