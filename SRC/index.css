@@ -79,10 +79,14 @@ p {
  width: 100%;
 }
 .about-the-band {
-  text-align: center;
+  align-items: center;
+  padding: 2%;
+  width: 85%;
+  margin: auto;
+}
+.about-the-band p{
   text-align: justify;
-  padding-left: 10%;
-  padding-right: 10%;
+  width:100%;
 }
 .about{
   margin-top: 2%;
@@ -121,6 +125,11 @@ h3 {
   border-radius: 5px;
   margin-bottom: 6%;
  }
+ .card:hover{ 
+  transform: translateY(15px) translateX(5px);
+  box-shadow: 0 12px 16px rgba(0,0,0,2);
+  cursor: pointer;
+}
  .caratulas img{
   display: flex;
   margin: 10%;
@@ -133,7 +142,7 @@ h3 {
 
 .info_albumes{
   width: 45%;
-  max-height: fit-content;
+  height: fit-content;
   border-radius: 5px;
   background-color: rgba(217, 217, 217, 0.2);
   padding-top: 2%;
@@ -172,7 +181,6 @@ td{
   border-radius: 5px;
   background-color: rgba(217, 217, 217, 0.2);
   padding: 1%;
-  overflow-y: auto;
 }
 .img_biografias{
   width: 50%;

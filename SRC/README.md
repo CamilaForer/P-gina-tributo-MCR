@@ -14,5 +14,9 @@ Primero cree el header que es igual para cada vista, para esto tuve que llamar e
 
 ![Header](https://user-images.githubusercontent.com/86115727/193873397-c394fb1f-f8e5-4a30-b3b1-251a0d418248.PNG)
 
+De Bootstrap tome la base de uno de sus carruseles para mostrar las imagenes de la galeria para la página principal y se agrego un texto con contenido acerca de la banda.
 
+![carrusel](https://user-images.githubusercontent.com/86115727/194118152-dcee13c0-60db-44ad-a2c9-53005261a59e.PNG)
+
+Para la creación de la segunda vista o página utliice section para organizar con ayuda de flexbox la ubicación de las imagenes de caratulas de los albumes y para posicionar una tabla. 
 
