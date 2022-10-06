@@ -168,7 +168,7 @@ td{
 }
 /*Eventos click*/
 
-/*input[type="checkbox"]:checked ~ .info_albumes{
+/*#firstAlbumClick:checked.info_albumes{
   visibility: visible;
 }*/
 

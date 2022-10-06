@@ -16,7 +16,7 @@ Primero cree el header que es igual para cada vista, para esto tuve que llamar e
 </p>
 
 
-De Bootstrap tome la base de uno de sus carruseles para mostrar las imagenes de la galeria para la página principal y se agrego un texto con contenido acerca de la banda.
+Instale Bootstrap por medio de la terminal y de allí tome la base de uno de sus carruseles para mostrar las imagenes de la galeria para la página principal y se agrego un texto con contenido acerca de la banda.
 
 <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/86115727/194118152-dcee13c0-60db-44ad-a2c9-53005261a59e.PNG">
